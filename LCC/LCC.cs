@@ -1,4 +1,5 @@
-﻿using BepInEx;
+﻿using System.Collections.Generic;
+using BepInEx;
 using UnboundLib;
 using UnboundLib.Cards;
 using LCC.Cards;
@@ -34,7 +35,7 @@ namespace LCC
         {
             instance = this;
 
-            CustomCard.BuildCard<MyCardName>();
+            CustomCard.BuildCard<Titan>();
         }
     }
 }
