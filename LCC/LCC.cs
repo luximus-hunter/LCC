@@ -36,6 +36,7 @@ namespace LCC
             instance = this;
 
             CustomCard.BuildCard<Titan>();
+            CustomCard.BuildCard<Sniper>();
         }
     }
 }
