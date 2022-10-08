@@ -62,21 +62,21 @@ namespace LCC.Cards
         {
             return new[]
             {
-                new CardInfoStat()
+                new CardInfoStat
                 {
                     positive = true,
                     stat = "Health",
                     amount = "+2000%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
-                new CardInfoStat()
+                new CardInfoStat
                 {
                     positive = false,
                     stat = "Speed",
                     amount = "-200%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
-                new CardInfoStat()
+                new CardInfoStat
                 {
                     positive = false,
                     stat = "Reload Speed",

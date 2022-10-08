@@ -56,7 +56,7 @@ namespace LCC.Cards
         {
             return new[]
             {
-                new CardInfoStat()
+                new CardInfoStat
                 {
                     positive = true,
                     stat = "Effect",
