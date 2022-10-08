@@ -35,12 +35,18 @@ namespace LCC
         {
             instance = this;
 
+            // Health related
             CustomCard.BuildCard<Titan>();
             CustomCard.BuildCard<Mouse>();
             
+            // Gun related
             CustomCard.BuildCard<Sniper>();
             CustomCard.BuildCard<MachineGun>();
             
+            // Curses
+            CustomCard.BuildCard<Bulletless>();
+
+            // TODO: wip cards
             // CustomCard.BuildCard<OnePunchMan>();
         }
     }
