@@ -40,6 +40,8 @@ namespace LCC
             
             CustomCard.BuildCard<Sniper>();
             CustomCard.BuildCard<MachineGun>();
+            
+            // CustomCard.BuildCard<OnePunchMan>();
         }
     }
 }
