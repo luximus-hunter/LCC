@@ -60,7 +60,7 @@ namespace LCC.Cards
 
         protected override CardInfoStat[] GetStats()
         {
-            return new CardInfoStat[]
+            return new[]
             {
                 new CardInfoStat()
                 {
