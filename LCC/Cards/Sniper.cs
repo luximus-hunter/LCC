@@ -19,8 +19,8 @@ namespace LCC.Cards
             
             gun.reloadTimeAdd = 0.125f;
             gun.projectileSpeed = 11f;
-            gun.ammo = 1;
-            
+            gun.ammo = -1000;
+
             cardInfo.allowMultiple = false;
         }
 
