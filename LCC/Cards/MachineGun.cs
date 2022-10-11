@@ -44,12 +44,12 @@ namespace LCC.Cards
 
         protected override string GetDescription()
         {
-            return "Ratatatata.";
+            return "Ratata.";
         }
 
         protected override GameObject GetCardArt()
         {
-            return null;
+            return null!;
         }
 
         protected override CardInfo.Rarity GetRarity()

@@ -44,7 +44,7 @@ namespace LCC.Cards
 
         protected override GameObject GetCardArt()
         {
-            return null;
+            return null!;
         }
 
         protected override CardInfo.Rarity GetRarity()
